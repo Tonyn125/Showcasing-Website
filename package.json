@@ -1,0 +1,26 @@
+{
+  "name": "showcasing-website",
+  "version": "1.0.0",
+  "description": "A simple website displaying items/products",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tonyn125/Showcasing-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tonyn125/Showcasing-Website/issues"
+  },
+  "homepage": "https://github.com/Tonyn125/Showcasing-Website#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
