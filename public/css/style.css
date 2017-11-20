@@ -1,7 +1,7 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #5d5d5d;
-    padding: 0 !important;
-    overflow-x: hidden;
-    font-size: 300%;
+  color: #5d5d5d;
+  font-family: 'Roboto', sans-serif;
+  font-size: 300%;
+  overflow-x: hidden;
+  padding: 0;
 }
