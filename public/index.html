@@ -18,80 +18,51 @@
 </head>
 
 <body>
-  <!-- Nav Bar -->
-  <nav class="navbar navbar-default">
-    <div>
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/">SeeWee</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="#">A</a>
-        </li>
-        <li>
-          <a href="#">B</a>
-        </li>
-        <li>
-          <a href="#">C</a>
-        </li>
-        <li>
-          <button type="button" class="btn btn-primary">Login</button>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Header -->
-  <div>
+  <p id="demo">
+    Click Me
+  </p>
+  <button type="button" onclick="document.getElementById('demo').innerHTML =
+    'Hello JavaScript!'">
+    Text1
+  </button>
+  <button type="button" onclick="document.getElementById('demo').innerHTML =
+   'Good bye Javascript'">Text2
+  </button>
+  <button type="button" onclick="document.getElementById('demo').innerHTML =
+    'test 3rd button'">Text3
+  </button>
+  <button type="button" onclick="document.getElementById('demo').style.fontSize
+   = '50px'">
+    Size Large
+  </button>
+  <button type="button" onclick="document.getElementById('demo').style.fontSize
+   = '30px'">
+    Size Small
+  </button>
+  <button type="button" onclick="document.getElementById('demo').style.display
+   = 'none'">
+    Text Off
+  </button>
+  <button type="button" onclick="document.getElementById('demo').style.display
+  = 'block'">
+    Text On
+  </button>
+  <button onclick= "function1()" >
+    Switch On/Off
+  </button>
 
-  </div>
-  <!-- Search Bar -->
-  <div>
-
-  </div>
-  <!-- Images -->
-  <!-- TODO Turn Into Javascript Pull From DB -->
-  <div class="images">
-    <div class="row">
-
-      <div class="col-sm-4">
-        Image
-      </div>
-      <div class="col-sm-4">
-        Image
-      </div>
-      <div class="col-sm-4">
-        Image
-      </div>
-    </div>
-    <div class="row">
-
-      <div class="col-sm-4">
-        Image
-      </div>
-      <div class="col-sm-4">
-        Image
-      </div>
-      <div class="col-sm-4">
-        Image
-      </div>
-    </div>
-    <div class="row">
-
-      <div class="col-sm-4">
-        Image
-      </div>
-      <div class="col-sm-4">
-        Image
-      </div>
-      <div class="col-sm-4">
-        Image
-      </div>
-    </div>
-  </div>
-  <!-- Footer -->
-  <div>
-
-  </div>
+  <script>
+    function function1(){
+      var x=document.getElementById('demo');
+      if (x.style.display === 'block') {
+        x.style.display = 'none'
+      } else if (x.style.display === 'none'){
+        x.style.display = 'block'
+      } else {
+        x.style.display = 'none'
+      }
+    }
+  </script>
 </body>
 
 </html>
