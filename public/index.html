@@ -18,50 +18,12 @@
 </head>
 
 <body>
-  <p id="demo">
-    Click Me
+  <p id="entry">
+    Text Change
   </p>
-  <button type="button" onclick="document.getElementById('demo').innerHTML =
-    'Hello JavaScript!'">
-    Text1
-  </button>
-  <button type="button" onclick="document.getElementById('demo').innerHTML =
-   'Good bye Javascript'">Text2
-  </button>
-  <button type="button" onclick="document.getElementById('demo').innerHTML =
-    'test 3rd button'">Text3
-  </button>
-  <button type="button" onclick="document.getElementById('demo').style.fontSize
-   = '50px'">
-    Size Large
-  </button>
-  <button type="button" onclick="document.getElementById('demo').style.fontSize
-   = '30px'">
-    Size Small
-  </button>
-  <button type="button" onclick="document.getElementById('demo').style.display
-   = 'none'">
-    Text Off
-  </button>
-  <button type="button" onclick="document.getElementById('demo').style.display
-  = 'block'">
-    Text On
-  </button>
-  <button onclick= "function1()" >
-    Switch On/Off
-  </button>
-
+  <button type="button" onclick="myfunction()">large</button>
   <script>
-    function function1(){
-      var x=document.getElementById('demo');
-      if (x.style.display === 'block') {
-        x.style.display = 'none'
-      } else if (x.style.display === 'none'){
-        x.style.display = 'block'
-      } else {
-        x.style.display = 'none'
-      }
-    }
+    document.write(5+1);
   </script>
 </body>
 
